@@ -1,4 +1,3 @@
-const tracer = require('dd-trace').init()
 var http = require('http');
 
 var server = http.createServer(function(req, res) {
